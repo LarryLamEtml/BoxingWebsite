@@ -1,7 +1,23 @@
-# CSS  Distribution
+Material framework
+==================
 
-This repository is automatically synced with the main [Semantic UI](https://github.com/Semantic-Org/Semantic-UI) repository to provide lightweight CSS only version of Semantic UI.
+This is a CSS only Material design based framework.
 
-This package **does not support theming** and includes generated CSS files of the default theme only.
+Demo : http://nt1m.github.io/material-framework
 
-You can view more on Semantic UI at [LearnSemantic.com](http://www.learnsemantic.com) and [Semantic-UI.com](http://www.semantic-ui.com)
+# Usage
+Just include material.css on any web page/ web app.
+You can also get a minified version by running `grunt dist`, the minified code will appear in the `dist` folder.
+
+# Resources used
+- [Material Colors](https://github.com/shuhei/material-colors/)
+- [Material design icons](https://github.com/google/material-design-icons/)
+- [Fontello](http://fontello.com) (to generate icon font)
+
+# Contributing
+Pull requests :) or Issues if you can't :)
+
+## Guidelines
+- Tab indenting
+- Space after "," (rgba(0, 0, 0, 0.2) for example)
+- Lowercase hex colors or rgba for alpha transparency
